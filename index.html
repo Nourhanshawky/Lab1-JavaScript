@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //1//
+        var fname=prompt("please enter your first name");
+        var lname=prompt("please enter your last name");
+        var fullName=`${fname} ${lname}` ; 
+        var BirthYear=Number(prompt("please Enter your Birth date"));
+        var currentYear = new Date().getFullYear();
+        var age = currentYear - BirthYear;
+        alert("welcome "+fullName+" you are "+age +" Years Old");
+
+        //2//
+        alert("it’s the first release of a calculator that only has a summation feature.");
+        var fnum=Number(prompt("Enter first number"));
+        var lnum=Number(prompt("Enter secound number"));
+        var sum =fnum+lnum;
+        alert("Summation result is: "+sum);
+
+
+    </script>
+</body>
+</html>
